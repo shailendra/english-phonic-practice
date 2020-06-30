@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  	<head>
+	    <title>Random English Phonic Alphabet</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+      <link rel="shortcut icon" type="image/png" href="images/icon.jpg"/>
+      <link rel="image_src" href="images/icon.jpg" />
+
+      <meta name=mobile-web-app-capable content=yes>
+      <meta name=apple-mobile-web-app-capable content=yes>
+      <meta name=application-name content="Random Marathi Alphabet">
+      <meta name=apple-mobile-web-app-status-bar-style content=black>
+      <meta name=apple-mobile-web-app-title content="Random Marathi Alphabet">
+      <link rel=icon sizes=192x192 href=images/icon.jpg>
+      <link rel=apple-touch-icon href=images/icon.jpg>
+      <meta name=msapplication-TileImage content=images/icon_144.jpg>
+      <meta name=msapplication-TileColor content=#2196F3>
+      <meta name=theme-color content=#2196F3>
+
+	    <link rel="stylesheet" href="css/main.css">
+      <script src="js/jquery-1.12.4.min.js"></script>
+      <script src="js/TweenMax.min.js"></script>
+	    <script src="js/main.js"></script>
+  	</head>
+
+  	<body>  
+
+        <div class="gameWraper">   
+
+            <div id="landingScreen" class="screen">
+              <div class="tbl">
+                  <div class="tblCell">
+                    <a class="startBtn">Start</a>
+                    <a class="startRandomBtn">Start Random</a>
+                  </div>
+              </div>
+            </div>
+
+            <div id="alphabetScreen" class="screen">
+              <audio controls id="audioA" controls="true" autoplay></audio>
+              <div class="tbl">
+                  <div class="tblCell">
+              
+                    <span class="alphabetHolder"></span>
+                    <div class="iconHolder"><img src="images/sound-icon.png" class="soundBtn" alt=""><img src="images/video-icon.png" class="videoBtn" alt=""></div>
+                  </div>
+              </div>
+              <div class="progressBar"></div>
+            </div>
+              
+            <div class="videoHolder">
+              <video width="100%" height="100%" id="videoA" controls="true"></video>
+            </div>
+
+              
+
+        </div> 
+  	</body>
+</html>
